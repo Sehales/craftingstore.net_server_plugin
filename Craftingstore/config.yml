@@ -1,0 +1,22 @@
+# your craftingstore.net subdomain
+# if you would have: test.craftingstore.net you have to insert 'test'
+subdomain: 'yourSubdomain'
+
+# your craftingstore.net api user
+jsonapi-user: webshop
+
+# set this to false if you don't want economy support via vault
+allow-exchange: true
+
+lang:
+  reload-msg: <gold>Config has been reloaded!
+  
+  # %s gets replaced with your subdomain. You might want to change this if your are using a custom domain or set mailboxOnly to true!
+  default-msg: '<gold>To access our store visit <newline><red>http://%s.craftingstore.net<newline><gold>To open your mailbox box try /store mailbox'
+  transaction-failed: '<red>Your transaction failed, please check your account balance'
+  currently-not-available: '<red>Can''t reach transaction server, please try again later'
+  transaction-successful: '<gold>You have transfered %d points to the shop'
+  not-registered: '<red>You have to register in the shop first!'
+  feature-not-available: '<red>That feature is not available!'
+  specify-value: '<red>You have to specify an amount which you want to exchange!'
+  not-a-number: '<red>Please type in a valid number!'

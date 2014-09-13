@@ -1,0 +1,13 @@
+name: CraftingStoreConnector
+prefix: CraftingStore
+main: net.craftingstore.connector.Connector
+version: 0.4.2
+authors: [Sehales, Maddis]
+website: http://craftingstore.net
+depend: [JSONAPI]
+softdepend: [Vault]
+commands:
+  craftingstore:
+    aliases: [webshop,cstore,store,buy,shop]
+    usage: /<command> [mailbox]
+    description: gives you access the store/items
